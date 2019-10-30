@@ -1,13 +1,17 @@
 {
-    "name": "root/htdocs",
+    "name": "poker/straight",
     "type": "project",
-    "require": {},
+    "require": {
+        "php": "^7.2.1",
+        "phpunit/phpunit": "^8"
+    },
     "autoload": {
         "classmap": [
             "src/"
         ]
     },
     "require-dev": {
+        "php": "^7.2.1",
         "phpunit/phpunit": "^8"
     },
     "scripts": {

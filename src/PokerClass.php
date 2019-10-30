@@ -1,6 +1,14 @@
 <?php
 
-final class PokerClass {
+/**
+ * Class PokerClass
+ */
+final class PokerClass
+{
+    /**
+     * @param array $cards
+     * @return bool
+     */
     public static function isStraight(array $cards)
     {
         $last = 0;
